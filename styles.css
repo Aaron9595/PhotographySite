@@ -1,0 +1,107 @@
+
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.box-third:hover, .full-photo:hover{
+	opacity: .9;
+	cursor: pointer;
+}
+
+h1 {
+	color: #333;
+	margin-bottom: 0;
+	font-size: 22px;
+}
+
+h2{
+	font-weight: lighter;
+    margin-top: 0;
+    font-size: 14px;
+}
+
+.standard-button{
+	padding: 5px;
+    font-size: 10px;
+    color: #222;
+    width: 70px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+.shop-button{
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #222;
+    width: 70px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 3px;
+    text-align: center;;
+}
+
+.shop-button:hover{
+	cursor: pointer;
+}
+
+.standard-button:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.header-section{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.box-third{
+	height: 260px;
+	width: 33.33%;
+	background-color: grey;
+	float: left;
+	background-size: cover;
+    background-position: center;
+}
+
+.top-section{
+	height: 260px;
+	margin-bottom: 10px;
+}
+
+.top-one{
+	background-image: url('photos/photo-one.JPG');
+}
+
+.top-two{
+	background-image: url('photos/photo-two.JPG');
+	margin-left: 10px;
+    margin-right: 10px;
+    width: calc(33.33% - 20px);
+}
+
+.top-three{
+	background-image: url('photos/photo-three.JPG');
+}
+
+.full-photo {
+	margin-top: 10px;
+	width: 100%;
+	background-image: url('photos/photo-four.JPG');
+	height: 600px;
+	background-size: cover;
+	clear: both;
+	background-position: center;
+}
+
+.top-nav{
+	height: 30px;
+	background-color: beige;
+}
