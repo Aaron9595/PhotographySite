@@ -53,6 +53,12 @@ input[type=submit] {
 input[type=submit]:hover {
 	background-color: #595959;
 }
+
+.slide-section {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
 .section {
 	max-width: 1250px;
 	margin: 0 auto;
@@ -64,19 +70,20 @@ input[type=submit]:hover {
     color: #595959;
     width: 40px;
     float: right;
-    margin-right: 10px;
+    margin-right: 20px;
     margin-top: 3px;
     text-align: center;
 }
 
 .shop-button{
     padding: 5px;
-    font-size: 10px;
+    font-size: 9px;
     font-weight: bold;
     color: #fff;
     background-color: #404040;
     width: 70px;
-    float: right;
+	float: right;
+	margin-left: 5px;
     margin-right: 10px;
     margin-top: 3px;
     text-align: center;;
@@ -144,7 +151,7 @@ input[type=submit]:hover {
 	background-image: url('photos/photo-three.jpg');
 }
 
-.full-photo {
+/* .full-photo {
 	margin-top: 10px;
 	width: 100%;
 	background-image: url('photos/photo-four.jpg');
@@ -152,8 +159,84 @@ input[type=submit]:hover {
 	background-size: cover;
 	clear: both;
 	background-position: center;
+} */
+
+* {
+	box-sizing: border-box;
 }
 
+.container {
+	position: relative;
+}
+
+.mySlides {
+	display: none;
+}
+
+.cursor {
+	cursor: pointer;
+}
+
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 40%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+.caption-container {
+	text-align: center;
+	background-color: #222;
+	padding: 2px 16px;
+	color: white;
+}
+
+.slide-row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.slide-column {
+	float: left;
+	width: 16.66%;
+}
+
+.demo {
+	opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+	opacity: 1;
+}
 
 .top-nav{
 	height: 30px;
@@ -228,12 +311,12 @@ input[type=submit]:hover {
 	text-align: center;
 	line-height: 1.9;
 	word-spacing: 3px;
-	width: 76%;
+	width: 90%;
 	padding: 95px;
 	float: center;
 }
 
-.port-column{
+/* .port-column{
 	text-align: center;
 	float: left;
 	width: 32%;
@@ -246,6 +329,37 @@ input[type=submit]:hover {
 	content: "";
 	display: table;
 	clear: both;
+} */
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+
+.column {
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
+}
+
+.column img {
+	margin-top: 8px;
+	vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) {
+	.column {
+		flex: 50%;
+		max-width: 50%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.column {
+		flex: 100%;
+		max-width: 100%;
+	}
 }
 
 .port-one {
