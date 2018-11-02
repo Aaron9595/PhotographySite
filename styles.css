@@ -151,16 +151,6 @@ input[type=submit]:hover {
 	background-image: url('photos/photo-three.jpg');
 }
 
-/* .full-photo {
-	margin-top: 10px;
-	width: 100%;
-	background-image: url('photos/photo-four.jpg');
-	height: 600px;
-	background-size: cover;
-	clear: both;
-	background-position: center;
-} */
-
 * {
 	box-sizing: border-box;
 }
