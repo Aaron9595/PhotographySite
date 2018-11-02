@@ -152,7 +152,7 @@ input[type=submit]:hover {
 }
 
 * {
-	box-sizing: border-box;
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 
 .container {
@@ -303,7 +303,6 @@ input[type=submit]:hover {
 	word-spacing: 3px;
 	width: 90%;
 	padding: 95px;
-	float: center;
 }
 
 .row {
@@ -345,6 +344,10 @@ input[type=submit]:hover {
 	float: left;
 	margin-top: 3px;
 	margin-left: 10px;
+}
+.insta-button img {
+	height: 23px;
+	width: 23px;
 }
 
 .contact-form {
