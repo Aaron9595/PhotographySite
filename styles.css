@@ -12,22 +12,45 @@ body{
 	cursor: pointer;
 }
 
-h1 {
+.header-section h1 {
 	color: #4c587f;
 	margin-bottom: 0;
 	font-size: 55px;
 	font-family: 'cinzel', serif;
 }
 
-h2{
+.header-section h2{
 	color: #9ea6a3;
 	font-weight: lighter;
     margin-top: 0;
     font-size: 25px;
 }
 
+.about-info h1 {
+	color: #4c587f;
+	margin-bottom: 0;
+	font-size: 42px;
+	font-family: 'cinzel', serif;
+}
+
+.about-info h2{
+	color: #8e9693;
+	font-weight: lighter;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.contact-head{
+	color: #4c587f;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-size: 35px;
+	font-family: 'cinzel', serif;
+}
+
 p{
-	color: #b3b3b3;
+	color: #8e9693;
 	font-weight: lighter;
 	font-size: 14px;
 }
@@ -67,26 +90,25 @@ input[type=submit]:hover {
 }
 
 .standard-button{
-	padding: 5px;
-    font-size: 10px;
+	padding: 3px 5px 5px 5px;
+    font-size: 15px;
     color: #595959;
     width: 40px;
     float: right;
-    margin-right: 20px;
+    margin-right: 40px;
     margin-top: 3px;
     text-align: center;
 }
 
 .shop-button{
-    padding: 5px;
-    font-size: 9px;
-    font-weight: bold;
+    padding: 3px 3px 2px 3px;
+    font-size: 14px;
     color: #fff;
     background-color: #4c586f;
     width: 70px;
 	float: right;
-	margin-left: 5px;
-    margin-right: 10px;
+	margin-left: 15px;
+    margin-right: 25px;
     margin-top: 3px;
     text-align: center;;
 }
@@ -238,7 +260,7 @@ input[type=submit]:hover {
 
 .top-nav{
 	height: 30px;
-	background-color: #a2aab0;
+	background-color: #a2aab9;
 }
 
 .footer-button-one {
@@ -253,7 +275,7 @@ input[type=submit]:hover {
 	text-align: center;
 	margin-top: 0;
 	font-size: 14px;
-	color: #3e3e3b;
+	color: #9ea6a3;
 	padding-bottom: 10px;
 }
 
@@ -268,21 +290,21 @@ input[type=submit]:hover {
 }
 
 .footer-link-two:link{
-	color: #3e3e3b;
+	color: #9ea6a3;
 	text-decoration: none;
 }
 
 .footer-link-two:visited {
-	color: #3e3e3b;
+	color: #9ea6a3;
 }
 
 .footer-link-two:hover {
-	color: #3e3e3b;
+	color: #9ea6a3;
 }
 
 .footer {
 	height: 30px;
-	background-color: #a2aab0;
+	background-color: #a2aab9;
 }
 
 .about-photo{
@@ -351,6 +373,7 @@ input[type=submit]:hover {
 	margin-top: 3px;
 	margin-left: 10px;
 }
+
 .insta-button img {
 	height: 23px;
 	width: 23px;
@@ -359,7 +382,7 @@ input[type=submit]:hover {
 .contact-form {
 	max-width: 900px;
 	border-radius: 5px;
-	background-color: #cccccc;
+	background-color: #7c889f;
 	padding: 20px;
 	margin-bottom: 20px;
 }
