@@ -45,6 +45,9 @@ body{
 	padding-bottom: 5px;
 	text-align: center;
 	font-size: 35px;
+}
+
+.contact-head h1 {
 	font-family: 'cinzel', serif;
 }
 
@@ -408,5 +411,75 @@ input[type=submit]:hover {
 	.slide-section .mySlides img{
 		width: 100%;
 		height: 300px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.about-page {
+		height: 700px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.about-info {
+		width: 600px;
+		margin-left: 80px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.about-photo {
+		width: 500px;
+		height: 350px;
+		margin-left: 135px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.about-page {
+		height: 875px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.about-info {
+		width: 425px;
+		margin-left: 0px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.about-photo {
+		width: 300px;
+		height: 250px;
+		margin-left: 60px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.standard-button {
+		padding: 3px 5px 5px 5px;
+		font-size: 15px;
+		color: #595959;
+		width: 40px;
+		float: right;
+		margin-right: 30px;
+		margin-top: 3px;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.shop-button {
+		padding: 3px 3px 2px 3px;
+		font-size: 14px;
+		color: #fff;
+		background-color: #4c586f;
+		width: 70px;
+		float: right;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 3px;
+		text-align: center;;
 	}
 }
